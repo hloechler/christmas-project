@@ -1,0 +1,29 @@
+body {
+    background-color: #20211A;
+    color: white;
+    font-family: "Mountains of Christmas", cursive;
+}
+
+#header-text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#xmas-countdown{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#myCanvas{
+    background-color: blue;
+}
+
+#canvas{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}

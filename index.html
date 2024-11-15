@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas Advent Calendar</title>
     <link href="style.css" rel="stylesheet" type="text/css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="header">
-        <p>Welcome to the Enchanted Winter Quest!</p>
+        <p id="header-text">Welcome to the Enchanted Winter Quest!</p>
         <p id="xmas-countdown">Days till Christmas!</p>
     </div>
-    <div>
+    <div id="canvas">
+        <input type="file" id="imageInput1" accept="img/imageInput1">
         <canvas id="myCanvas" width="500" height="300"></canvas>
     </div>
     <script src="script.js"></script>
